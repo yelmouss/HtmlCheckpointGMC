@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    background-image: url('https://images.unsplash.com/photo-1617042375876-a13e36732a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE4fHxkZXZlbG9wZXJ8ZW58MHx8fHwxNjY1NTk2Nzgx&ixlib=rb-1.2.1&q=80&w=2000');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.MaSection {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MaSection p {
+    width: 80%;
+}
+
+nav {
+    background-color: black;
+    padding: 1%;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+   text-decoration: none;
+   color: aliceblue;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+    padding: 2%;
+    background: black;
+}
+
+footer{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
